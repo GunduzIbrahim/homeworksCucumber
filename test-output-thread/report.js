@@ -1,0 +1,4 @@
+$(document).ready(function() {
+CucumberHTML.timelineItems.pushArray([{"id":"d9a75cee-3126-4339-a147-fe1d31dd3d94","feature":"Kullanici belirtilen sitede iki kelime aratir ve olup olmadigini kontrol eder","scenario":"Kullanici ilgili sitede iki kelimeyi arar ve varliklarini kontrol eder","start":1677520196679,"group":1,"content":"","tags":"@questionseven,","end":1677520209392,"className":"passed"},{"id":"5b58515d-fa4b-4e06-8ebb-7285f77b9cbb","feature":"Kullanici belirtilen sitede iki kelime aratir ve olup olmadigini kontrol eder","scenario":"Kullanici ilgili sitede iki kelimeyi arar ve varliklarini kontrol eder","start":1677520209417,"group":1,"content":"","tags":"@questionseven,","end":1677520222315,"className":"passed"}]);
+CucumberHTML.timelineGroups.pushArray([{"id":1,"content":"Thread[main,5,main]"}]);
+});
