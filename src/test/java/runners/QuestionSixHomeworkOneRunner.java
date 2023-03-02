@@ -18,8 +18,8 @@ import org.junit.runner.RunWith;
 
         features = "src/test/resources",
         glue = "stepdefinitions",
-        tags = "@questionSeven",
+        tags = "@questionSix",
         dryRun = false
 )
 
-public class QuestionSevenRunner {}
+public class QuestionSixHomeworkOneRunner {}

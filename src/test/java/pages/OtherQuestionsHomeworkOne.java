@@ -1,6 +1,6 @@
 package pages;
 
-public class OtherQuestions {
+public class OtherQuestionsHomeworkOne {
 
     /*
     Soru 1: Data Driven Development nedir açıklayınız?

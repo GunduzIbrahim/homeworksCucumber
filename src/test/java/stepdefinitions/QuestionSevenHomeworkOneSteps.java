@@ -4,13 +4,13 @@ import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import org.testng.Assert;
-import pages.QuestionSevenPages;
+import pages.QuestionSevenHomeworkOnePages;
 import utilities.CommenSteps;
 import utilities.Driver;
 
-public class QuestionSevenSteps {
+public class QuestionSevenHomeworkOneSteps {
 
-    QuestionSevenPages questionSevenPages = new QuestionSevenPages();
+    QuestionSevenHomeworkOnePages questionSevenPages = new QuestionSevenHomeworkOnePages();
     @Given("Kullanici belirtilen siteye gider")
     public void kullaniciBelirtilenSiteyeGider() throws InterruptedException {
         Driver.getDriver().get("https://www.telerik.com/support/demos");

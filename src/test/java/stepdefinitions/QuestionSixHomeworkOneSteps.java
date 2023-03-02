@@ -4,12 +4,12 @@ import io.cucumber.java.en.And;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.junit.Assert;
-import pages.QuestionSixPages;
+import pages.QuestionSixHomeworkOnePages;
 import utilities.Driver;
 
-public class QuestionSixSteps {
+public class QuestionSixHomeworkOneSteps {
 
-    QuestionSixPages questionSixPages = new QuestionSixPages();
+    QuestionSixHomeworkOnePages questionSixPages = new QuestionSixHomeworkOnePages();
     @When("Kullanici belirtilen sayfaya gider")
     public void kullaniciBelirtilenSayfayaGider() {
         Driver.getDriver().get("https://www.ebay.de/");

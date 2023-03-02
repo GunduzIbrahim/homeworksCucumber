@@ -1,13 +1,12 @@
 package pages;
 
-import io.cucumber.java.zh_cn.假如;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import utilities.Driver;
 
-public class QuestionSevenPages {
-    public QuestionSevenPages(){
+public class QuestionSevenHomeworkOnePages {
+    public QuestionSevenHomeworkOnePages(){
         PageFactory.initElements(Driver.getDriver(), this);
     }
 
