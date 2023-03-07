@@ -34,6 +34,7 @@ public class HomeworkThreeSteps {
     @And("kullanici Pricing linkine tiklar")
     public void kullaniciPricingLinkineTiklar() {
         homeworkThreePages.pricingLink.click();
+        homeworkThreePages.otherAcceptAndCloseButton.click();
     }
 
     @And("kullanici BuyNow butonu ile sepete bir urun ekler")

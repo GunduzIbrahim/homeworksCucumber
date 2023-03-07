@@ -13,6 +13,8 @@ public class HomeworkThreePages {
     public WebElement cookiesAccept;
     @FindBy (xpath = "(//a[@class='TK-Menu-Item-Link'])[5]")
     public WebElement pricingLink;
+    @FindBy (id ="onetrust-accept-btn-handler")
+    public WebElement otherAcceptAndCloseButton;
     @FindBy (xpath = "(//a[@class='Btn Btn--prim4 u-db'])[1]")
     public WebElement buyNowButtonFirst;
     @FindBy (xpath = "(//a[@class='Btn Btn--prim4 u-db'])[2]")
