@@ -57,13 +57,14 @@ public class HomeworkSQLTwoSteps {
         int highestPrice = resultSet.getInt("max");
 
         System.out.println("\nHighest Price = " + highestPrice);
-        Assert.assertEquals(highestPrice, 50);
+        int actualPrice = 50;
+        Assert.assertEquals(highestPrice,actualPrice);
         connection.close();
     }
 
     @And("one of the product name has changed")
     public void oneOfTheProductNameHasChanged() throws SQLException {
-        String changedName = "UPDATE products SET product_name = 'Pencil' WHERE product_id = 1000";
+        String changedName = "UPDATE products SET product_name = 'Sticker' WHERE product_id = 1000";
         statement.executeUpdate(changedName);
         String sqlCode = "SELECT * FROM products";
         ReUsableMethods.getTable(sqlCode);
