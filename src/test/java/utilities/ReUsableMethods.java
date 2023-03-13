@@ -21,7 +21,7 @@ public class ReUsableMethods {
             int productPrice = resultSet.getInt("product_price");
             int productPiece = resultSet.getInt("product_piece");
 
-            System.out.println(productId + " \t\t| "+ productName + " \t\t\t| " + productPrice + " \t\t\t\t| " + productPiece);
+            System.out.println(productId + " \t\t| "+ productName + " \t\t\t| " + productPrice + " \t\t\t| " + productPiece);
         }
         connection.close();
     }
