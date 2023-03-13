@@ -42,7 +42,8 @@ public class HomeworkSQLTwoSteps {
             numberOfProduct++;
         }
         System.out.println("\nTotal number of products : "+numberOfProduct);
-        Assert.assertEquals(numberOfProduct, 5);
+        int actualNumberOfProduct = 5;
+        Assert.assertEquals(numberOfProduct, actualNumberOfProduct);
         connection.close();
     }
 
