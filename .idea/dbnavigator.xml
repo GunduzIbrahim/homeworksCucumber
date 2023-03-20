@@ -22,7 +22,7 @@ SELECT * FROM employees WHERE MOD(id,2)=0;
 
 SELECT max(salary) AS "Max Salary" FROM employees
 
-SELECT max(salary) AS Second_Max_Salary FROM employees WHERE salary< (SELECT max (salary) FROM employees)
+SELECT max(salary) AS "Second Max Salary" FROM employees WHERE salary< (SELECT max (salary) FROM employees)
 
 SELECT * FROM employees WHERE salary = (SELECT max (salary) FROM employees)
 

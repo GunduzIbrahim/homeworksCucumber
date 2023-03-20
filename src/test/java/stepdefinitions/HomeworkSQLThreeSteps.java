@@ -4,7 +4,6 @@ import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.When;
 import utilities.ConfigReader;
-import utilities.ReUsableMethods;
 
 import java.sql.*;
 
@@ -25,8 +24,6 @@ public class HomeworkSQLThreeSteps {
     public void userConnectsToTheEmployeesTable() throws SQLException {
         String allTable = "SELECT * FROM employees";
         resultSet = statement.executeQuery(allTable);
-
-
     }
 
     @And("print employees table with even id's last digit")
@@ -123,6 +120,4 @@ public class HomeworkSQLThreeSteps {
             System.out.println(employeeId + " \t| "+ employeeName + " \t| " + employeeState + " \t\t| " + employeeSalary + " \t| " + employeeCompany);
         }
     }
-
-
 }
